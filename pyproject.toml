@@ -1,0 +1,15 @@
+[project]
+name = "gmailgen"
+version = "1.0.0"
+description = "A terminal product for generating Gmail aliases."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "lvlify & mossez inc." }]
+license = { file = "LICENSE" }
+
+[project.scripts]
+gmailgen = "source.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
